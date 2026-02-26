@@ -2,6 +2,9 @@ public class Monster
 {
   private String myName;
 
+  public Monster(){
+    myName = "Monster";
+  }
 
   public Monster( String name ) {
       myName = name;
